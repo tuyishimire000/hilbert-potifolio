@@ -274,7 +274,7 @@ h3.my-profession{
     border-left: 10px solid var(--skin-color);
     left:-20px;
     top:-40px;
-}*/
+}
 .home-img::after{
     content:'';
     position:absolute;
@@ -285,7 +285,7 @@ h3.my-profession{
     right:20px;
     bottom:-40px;
     border-radius: 5px;
-}
+}*/
 .home .home-img img{
     margin:auto;
     border-radius: 5px;
