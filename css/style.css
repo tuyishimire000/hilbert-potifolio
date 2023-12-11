@@ -247,12 +247,20 @@ left:0;
 h3.hello{
     font-size:28px;
     margin:15px 0;
+    
 }
 h3.hello span{
     font-family: 'Click Script', cursive;
     font-size: 30px;
     font-weight: 700px;
     color:var(--skin-color);
+}
+h3.hello .emoj-img{
+    width:60px;
+    height:60px;
+    padding: 0;
+    margin-bottom: -20px;
+    margin-right: -10px;
 }
 h3.my-profession{
     font-size:30px;
