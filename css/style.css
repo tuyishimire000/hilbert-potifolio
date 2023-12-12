@@ -114,6 +114,9 @@ left:0;
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 40,70,0.20);
 }
+.activated{
+    color:var(--skin-color);
+}
 /*aside*/
 .aside{
     width:270px;

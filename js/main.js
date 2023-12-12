@@ -3,4 +3,15 @@ var typed=new Typed('.typing',{
     typeSpeed:100,
     backSpeed:60,
     loop:true
-})
+});
+
+const asideCursor = document.querySelectorAll(".aside-cursor");
+
+asideCursor.forEach((cursor) => {
+    cursor.addEventListener('click', () => {
+        asideCursor.forEach((cs) => {
+            cs.classList.remove('active');
+        });
+        cursor.classList.add('active');
+    });
+});
