@@ -718,10 +718,15 @@ display: inline-block;
      }
  }
 
- @media(max-width:460px){
+ @media(max-width:415px){
     .main-container{
         margin-right:-110px;
-       
         
+        
+    }
+    .about .about-content .personal-info .info-item p span#hi{
+        text-align: justify;
+        flex-wrap: wrap;
+      
     }
  }
