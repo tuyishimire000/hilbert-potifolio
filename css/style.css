@@ -42,6 +42,7 @@ body{
 }
 .main-container{
     padding-left: 270px;
+
 }
 ul{
     list-style: none;
@@ -705,6 +706,7 @@ display: inline-block;
      .about .about-content .personal-info{
         flex:0 0 100%;
         max-width:100%;
+     
      }
 
      footer .container .row {
@@ -714,4 +716,12 @@ display: inline-block;
         position: relative;
        margin:0 25%;
      }
+ }
+
+ @media(max-width:460px){
+    .main-container{
+        margin-right:-110px;
+       
+        
+    }
  }
